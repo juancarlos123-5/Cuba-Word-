@@ -5,14 +5,15 @@ config_version=5
 
 config/name="CUBA WORD"
 config/description="Simulador de vida en Cuba y el mundo"
-
-[rendering]
-
-renderer/rendering_method="mobile"
-renderer/rendering_method.mobile="mobile"
+run/main_scene="res://main.tscn"
 
 [display]
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+renderer/rendering_method.mobile="mobile"
